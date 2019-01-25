@@ -21,7 +21,7 @@ it is unique by itself and has it's own features.
 repository hosting service.
 
 ## Recomended Resources
-[TortoiseGit account] (https://tortoisegit.org/) It is also a repository service which 
+[TortoiseGit account](https://tortoisegit.org/) It is also a repository service which 
 hosts services used in windows it is a faster and userfriendly tool which is used for
 creating the repositories. 
 
