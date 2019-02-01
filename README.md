@@ -32,7 +32,7 @@ creating the repositories.
 [Creating repo in Github](https://help.github.com/articles/create-a-repo/) It is used 
 for new users to create the repository in the git.
 
-[youtubelink ](https://www.youtube.com/watch?v=mMsWq3rS6Po) This video is helpful in creating the 
+[youtubelink helpful for beginners](https://www.youtube.com/watch?v=mMsWq3rS6Po) This video is helpful in creating the 
 repository in the git.
 
 ## Contributers
