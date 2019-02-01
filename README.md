@@ -3,7 +3,7 @@
 ## Repository Links
 
  
-* [Webpage]((https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md)
+* [Webpage](https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md)
 * [Source](https://github.com/bhuvaneshnakka/aboutme/edit/master/README.md)
 
 ## About
@@ -20,7 +20,7 @@ it is unique by itself and has it's own features.
 [BitBucket Account](https://bitbucket.org/) It is a web based version control 
 repository hosting service.
 
-[Notepad++] (https://notepad-plus-plus.org/) It is also used to host services and unique by its 
+[Notepad++](https://notepad-plus-plus.org/) It is also used to host services and unique by its 
 features.
 
 ## Recomended Resources
