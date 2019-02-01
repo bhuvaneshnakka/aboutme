@@ -3,7 +3,7 @@
 ## Repository Links
 
  
-* [Webpage]((https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md))
+* [Webpage]((https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md)
 * [Source](https://github.com/bhuvaneshnakka/aboutme/edit/master/README.md)
 
 ## About
@@ -20,6 +20,9 @@ it is unique by itself and has it's own features.
 [BitBucket Account](https://bitbucket.org/) It is a web based version control 
 repository hosting service.
 
+[Notepad++] (https://notepad-plus-plus.org/) It is also used to host services and unique by its 
+features.
+
 ## Recomended Resources
 [TortoiseGit account](https://tortoisegit.org/) It is also a repository service which 
 hosts services used in windows it is a faster and userfriendly tool which is used for
@@ -34,7 +37,7 @@ repository in the git.
 
 ## Contributers
 
-Hai Guys This is Bhuvanesh Nakka  studying in the NORTHWEST MISSSOURI STATE UNIVERSITY
+Hai Guys This is Bhuvanesh Nakka  studying in the Northwest Missouri State University
 Pursuing my masters in Applied Computer Science.
 
 
