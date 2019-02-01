@@ -2,9 +2,9 @@
 
 ## Repository Links
 
-[Webpage](https://github.com/bhuvaneshnakka/aboutme/edit/master/README.md)
-
-[Source](https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md)
+ 
+* [Webpage]((https://github.com/bhuvaneshnakka/aboutme/blob/master/README.md))
+* [Source](https://github.com/bhuvaneshnakka/aboutme/edit/master/README.md)
 
 ## About
 
@@ -27,12 +27,15 @@ creating the repositories.
 
 
 [Creating repo in Github](https://help.github.com/articles/create-a-repo/) It is used 
-for new users to create the repository in the Git
+for new users to create the repository in the git.
+
+[youtubelink ](https://www.youtube.com/watch?v=mMsWq3rS6Po) This video is helpful in creating the 
+repository in the git.
 
 ## Contributers
 
 Hai Guys This is Bhuvanesh Nakka  studying in the NORTHWEST MISSSOURI STATE UNIVERSITY
-Pursuing my masters in Applied Computer Science
+Pursuing my masters in Applied Computer Science.
 
 
 ![Nature](https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
