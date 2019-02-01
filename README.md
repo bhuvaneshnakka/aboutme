@@ -37,7 +37,7 @@ repository in the git.
 
 ## Contributers
 
-Hai Guys This is Bhuvanesh Nakka  studying in the Northwest Missouri State University
+Hai guys this is Bhuvanesh Nakka  studying in the Northwest Missouri State University
 Pursuing my masters in Applied Computer Science.
 
 
