@@ -14,57 +14,84 @@
 
   <link rel="stylesheet" href="./styles/bhuvi.css">
 
+  <script src="./test.js"></script>
+  <script src="./Qunit.html"></script>
+
   <title>Bhuvanesh Nakka</title>
 
 </head>
-<header>
+
+
 <body background="nature.jpeg" class="bgimg">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">My Site</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="Contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="Calculator.html ">Calculator</a>
-          </li>
-        </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    <header class="container-fluid">
-      <h1>Bhuvanesh Nakka</h1>
-    </header>
-    p>
-    <label>WEIGHT</label>
-    <input id="inputInches" type="number" placeholder="Enter number of KG's" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
-</p>
-<p id="ft"><b>LBS:</b> <span id="outputFeet"></span></p>
-<script>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">My Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Calculator.html ">Calculator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="Qunit.html">Testing</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <header class="container-fluid">
+    <h1>Bhuvanesh Nakka</h1>
+  </header>
+  p>
+  <label>WEIGHT</label>
+  <input id="inputInches" type="number" placeholder="Enter number of KG's" oninput="LengthConverter(this.value)"
+    onchange="LengthConverter(this.value)">
+  </p>
+  <p id="ft"><b>LBS:</b> <span id="outputFeet"></span></p>
+  <div id="demo"><br>
+
+    <h2>The XMLHttpRequest Object</h2>
+    <button type="button" onclick="loadDoc()">Change Content</button>
+  </div>
+
+  <script>
     function LengthConverter(valNum) {
-        document.getElementById("outputFeet").innerHTML = valNum * 2.2046226218;
+      document.getElementById("outputFeet").innerHTML = valNum * 2.2046226218;
+      return valNum * 2.2046226218;
     }
-</script>
+
+    function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("demo").innerHTML =
+            this.responseText;
+        }
+      };
+      xhttp.open("GET", "bhuvi_info.txt", true);
+      xhttp.send();
+    }
+  </script>
 
 
-<hr>
-<footer>
+  <hr>
+  <footer>
     <b>
-        &copy; 2019 Bhuvanesh Nakka
+      &copy; 2019 Bhuvanesh Nakka
     </b>
 
-</footer>
+  </footer>
 
 </body>
 
