@@ -16,6 +16,7 @@
 
   <script src="./test.js"></script>
   <script src="./Qunit.html"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <title>Bhuvanesh Nakka</title>
 
@@ -50,10 +51,11 @@
       </form>
     </div>
   </nav>
+
   <header class="container-fluid">
     <h1>Bhuvanesh Nakka</h1>
   </header>
-  p>
+  <p>
   <label>WEIGHT</label>
   <input id="inputInches" type="number" placeholder="Enter number of KG's" oninput="LengthConverter(this.value)"
     onchange="LengthConverter(this.value)">
@@ -64,6 +66,9 @@
     <h2>The XMLHttpRequest Object</h2>
     <button type="button" onclick="loadDoc()">Change Content</button>
   </div>
+  <div id="flip" style="color:azure">Click here!!</div>
+<div id="panel" style="color:azure">Hi,This is Bhuvanesh</div>
+
 
   <script>
     function LengthConverter(valNum) {
@@ -83,6 +88,13 @@
       xhttp.send();
     }
   </script>
+  <script> 
+      $(document).ready(function(){
+        $("#flip").mouseover(function(){
+          $("#panel").slideToggle("slow");
+        });
+      });
+      </script>
 
 
   <hr>
