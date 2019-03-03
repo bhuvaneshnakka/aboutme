@@ -72,10 +72,13 @@
 
   <script>
     function LengthConverter(valNum) {
-      document.getElementById("outputFeet").innerHTML = valNum * 2.2046226218;
-      return valNum * 2.2046226218;
-    }
-
+      const s= valNum* 2.2046226218
+      document.getElementById("outputFeet").innerHTML = s
+      localStorage.setItem('The value in degrees is:',s)
+      return s
+    localStorage.setItem('inputInches',)
+     }
+     
     function loadDoc() {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
@@ -94,6 +97,7 @@
           $("#panel").slideToggle("slow");
         });
       });
+
       </script>
 
 
